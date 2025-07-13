@@ -41,3 +41,15 @@ npm i react@18 react-dom@18 으로 버전 변경
 @tailwind utilities;
 
 rafce
+
+
+컨트롤 +시프트 _ 백키
+컨트롤  + / 주석
+
+
+git 가져 올때 
+1. 새로운 파일 만들기 
+2. vs코드 켜서 코드 주소 복사 하기
+터미널에 git clone 주소 입력 
+3. 새로운 파일에서 다시 vs코드 열기 
+4. npm i -> 새로운 코드 파일에 맞는 패키지 가져와짐 - > npm start 
