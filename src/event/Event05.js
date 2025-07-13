@@ -1,9 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
+// 스크롤
 const Event05 = () => {
-  return (
-    <div>Event05</div>
-  )
+    const [ scrollY, setScrollY ] = useState(0);
+
+    useEffect(()=> {
+        const handleScroll = () => setScrollY(window.scrollY);
+        window.addEventListener('scroll', handleScroll);
+
+        return ()=> {
+            window.removeEventListener('scroll', handleScroll);
+        }
+    }, []);
+        
+    return (
+        <div className='h-[2000px]'>
+            <div className='fixed top-0 left-0'>
+                <p>{scrollY}px</p>
+            </div>
+        </div>
+    )
 }
 
 export default Event05
