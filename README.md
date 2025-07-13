@@ -40,4 +40,4 @@ npm i react@18 react-dom@18 으로 버전 변경
 @tailwind components;
 @tailwind utilities;
 
-rfce
+rafce
