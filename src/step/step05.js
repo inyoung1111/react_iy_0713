@@ -15,6 +15,7 @@ const Step05 = () => {
     */
     // let [a,b] = [10,20]
     const [ count, setCount ] = useState(0);
+    const [ like, setLike ] = useState([0,0]);
 
 
   return (
@@ -26,8 +27,12 @@ const Step05 = () => {
         {/* 배열에서 state값 변경 */}
         <div className='border border-red-500'>
             <p>게시물1</p>
-            <p>현재 좋아요 : 0</p>
-            <button>좋아요증가</button>
+            <p>현재 좋아요 : {like}[0]</p>
+            <button onClick = {()=> {
+                const Comy = [...like];
+                copy[0] = copy[0] +1;
+                setLike(copy);
+            }}>좋아요증가</button>
         </div>
         <div className='border border-red-500'>
             <p>게시물2</p>
