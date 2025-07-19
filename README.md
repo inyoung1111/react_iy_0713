@@ -1,6 +1,6 @@
 ## node JS 
 자바스크립트 실행 프로그램
-javascript는 브라우저에서만 동작했지마, nodejs 덕분에 브라우저 밖에서도 javascript를 사용
+javascript는 브라우저에서만 동작했지만, nodejs 덕분에 브라우저 밖에서도 javascript를 사용
 
 ---
 
